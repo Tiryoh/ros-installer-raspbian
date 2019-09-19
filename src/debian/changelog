@@ -1,0 +1,5 @@
+rpi-zerow-ros-melodic (1.0.0-1) buster; urgency=medium
+
+  * Initial packaging work with dpkg-buildpackage.
+
+ -- Tiryoh <tiryoh@gmail.com>  Thu, 19 Sep 2019 17:39:16 +0900

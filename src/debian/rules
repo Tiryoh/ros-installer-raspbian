@@ -1,0 +1,14 @@
+#!/usr/bin/make -f
+
+clean:
+	@# Do nothing
+
+build:
+	@# Do nothing
+
+binary:
+	mkdir -p debian/rpi-zerow-ros-melodic/opt/ros
+	cp -r /opt/ros/melodic debian/rpi-zerow-ros-melodic/opt/ros/
+	cp initialize.sh debian/rpi-zerow-ros-melodic/opt/ros/melodic
+	dh_gencontrol
+	dh_builddeb

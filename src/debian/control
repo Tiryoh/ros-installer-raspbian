@@ -1,0 +1,11 @@
+Source: rpi-zerow-ros-melodic
+Section: devel
+Priority: optional
+Maintainer: Tiryoh <tiryoh@gmail.com>
+Build-Depends: debhelper (>= 10)
+Standards-Version: 1.0.0
+
+Package: rpi-zerow-ros-melodic
+Architecture: armhf
+Depends: dirmngr, python-rosdep, python-rosinstall-generator, python-wstool, python-rosinstall, build-essential, cmake, git, curl
+Description: ROS Melodic basic package for Raspberry Pi Zero/Zero W

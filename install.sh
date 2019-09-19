@@ -1,6 +1,7 @@
 #!/usr/bin/env bash
 set -eu
 
+sudo apt update
 sudo apt install -y python-rosdep python-rosinstall-generator python-wstool python-rosinstall build-essential git curl
 sudo rosdep init
 rosdep update
